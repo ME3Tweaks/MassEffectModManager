@@ -53,6 +53,21 @@ Mergemods have different feature levels that are used when compiled. A feature l
 | 1             | 7              | All standard features up through Mod Manager 8.2. Assets are not compressed.                                                                                                                                  |
 | 2             | 9              | Assets now support being compressed internally, which significantly reduces m3m size. Features from Mod Manager 9.0 and forward are supported. Comments are now supported on every level of the m3m manifest. |
 
+
+
+
+
+## Supported files
+Mergemods work for the following basegame files and their localized counterparts.
+| Game 	| Files 	|
+|---	|---	|
+| ME1 	| `Core.u`, `Engine.u`, `EntryMenu.pcc`, `GameFramework.u`, `PlotManagerMap.u`, `BIOC_Base.u` 	|
+| ME2 	| `Core.pcc`, `Engine.pcc`, `GameFramework.pcc`, `GFxUI.pcc`, `WwiseAudio.pcc`, `SFXOnlineFoundation.pcc`, `PlotManagerMap.pcc`, `SFXGame.pcc`, `Startup_INT.pcc` 	|
+| ME3 	| `Core.pcc`, `Engine.pcc`, `EntryMenu.pcc`, `GameFramework.pcc`, `GFxUI.pcc`, `WwiseAudio.pcc`, `SFXOnlineFoundation.pcc`, `SFXGame.pcc`, `Startup.pcc`, `GesturesConfig.pcc`, `BIOG_Humanoid_MASTER_MTR_R.pcc`, `BIOG_HMM_HED_PROMorph.pcc` 	|
+| LE1 	| `Core.pcc`, `Engine.pcc`, `EntryMenu.pcc`, `IpDrv.pcc`, `GFxUI.pcc`, `PlotManagerMap.pcc`, `SFXOnlineFoundation.pcc`, `SFXGame.pcc`, `SFXStrategicAI.pcc`, `SFXGameContent_Powers.pcc`, `PlotManager.pcc`, `PlotManagerDLC_UNC.pcc`, `BIOC_Materials.pcc`, `SFXWorldResources.pcc`, `SFXVehicleResources.pcc`, `Startup_INT.pcc` 	|
+| LE2 	| `Core.pcc`, `Engine.pcc`, `GFxUI.pcc`, `WwiseAudio.pcc`, `SFXOnlineFoundation.pcc`, `PlotManagerMap.pcc`, `SFXGame.pcc`, `Startup_INT.pcc` 	|
+| LE3 	| `Core.pcc`, `Engine.pcc`, `EntryMenu.pcc`, `Startup.pcc`, `GameFramework.pcc`, `GFxUI.pcc`, `WwiseAudio.pcc`, `SFXOnlineFoundation.pcc`, `SFXGame.pcc` 	|
+
 ## .JSON File Format
 
 If you are not familiar with .JSON files, I suggest you [read this article](https://docs.fileformat.com/web/json/) to gain an understanding of the format. JSON is made up of key-value pairs, where a key is a string, and a value can be one of many types, such as a string or a number. The type can also be an array of more values, denoted by square brackets, or an object containing more key-value pairs, which is denoted by curly braces.
